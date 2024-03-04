@@ -1,0 +1,17 @@
+#4dn default mode bam to validpairs
+
+input_bams:
+  - class: File
+    path: "../../results/4dn_default_bam/SRR1658790_part1.bam"
+  - class: File
+    path: "../../results/4dn_default_bam/SRR1658790_part2.bam"
+  - class: File
+    path: "../../results/4dn_default_bam/SRR1658790_part3.bam"
+
+chromsize:
+    class: File
+    path: "../../references/hg38/chromsize/4DNFI823LSII.chrom.sizes"
+
+nthreads_parse_sort: 8
+
+nthreads_merge: 8

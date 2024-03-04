@@ -1,0 +1,10 @@
+# Percent of Clipped Sites with RE Motif 
+
+bamfile:
+    class: File
+    path: "../../results/4dn_default_validpairs_SRR1658793/out.lossless.bam"
+
+#You can select the following RE:
+#AluI, NotI, MboI, DpnII, HindIII, NcoI, MboI+HinfI, HinfI+MboI
+motif: 
+    common_enz: "MboI"

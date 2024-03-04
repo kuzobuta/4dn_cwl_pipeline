@@ -1,0 +1,34 @@
+#4dn default mode pairs to .hic & .mcool files
+
+#Merge two replicates
+input_pairs:
+  - class: File
+    path: "../../results/4dn_default_validpairs_SRR1658790/out.dedup.pairs.gz"
+  - class: File
+    path: "../../results/4dn_default_validpairs_SRR1658793/out.dedup.pairs.gz"
+
+chromsizes:
+    class: File
+    path: "../../references/hg38/chromsize/4DNFI823LSII.chrom.sizes"
+
+restriction_file:
+    class: File
+    path: "../../references/hg38/sites/MboI/4DNFI823L812.txt"
+
+nthreads: 8
+
+# resolutions: default is 13 resolutions but you may change this
+# Using low-resolution to save the computational time for test
+min_res: 100000
+custom_res: "100000,200000,500000,1000000,5000000,10000000"
+nres: 6
+
+juicer_res: false
+maxmem: "14g"  
+higlass: false
+mapqfilter_juicer: 0
+
+no_balance: false
+max_split_cooler: 2
+chunksize: 10000000
+

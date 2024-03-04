@@ -1,0 +1,11 @@
+#Bamqc using lossless bam file
+
+bamfile:
+    class: File
+    path: "../../results/4dn_default_validpairs_SRR1658793/out.lossless.bam"
+
+outdir: "."
+
+chromsizes:
+    class: File
+    path: "../../references/hg38/chromsize/4DNFI823LSII.chrom.sizes"
