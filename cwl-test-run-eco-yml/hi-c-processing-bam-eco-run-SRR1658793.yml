@@ -4,7 +4,9 @@
 
 input_bams:
   - class: File
-    path: "../../results/4dn_default_bam/SRR1658793.bam"
+    path: "../../results/4dn_default_bam/SRR1658793_part1.bam"
+  - class: File
+    path: "../../results/4dn_default_bam/SRR1658793_part2.bam"
 
 outprefix: "SRR1658793"
 
