@@ -1,0 +1,20 @@
+# 4dn default mode filtered pairs to merged ff.pairs
+# Add fragment info
+
+#Merge two replicates
+input_pairs:
+  - class: File
+    path: "../../results/4dn_eco_validpairs/SRR1658790.dedup.pairs.gz"
+  - class: File
+    path: "../../results/4dn_eco_validpairs/SRR1658793.dedup.pairs.gz"
+
+outprefix: "SRR1658790_SRR1658793"
+
+chromsizes:
+    class: File
+    path: "../../references/hg38/chromsize/4DNFI823LSII.chrom.sizes"
+
+restriction_file: #(optional)
+    class: File
+    path: "../../references/hg38/sites/MboI/4DNFI823L812.txt"
+

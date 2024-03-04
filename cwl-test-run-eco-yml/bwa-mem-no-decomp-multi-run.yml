@@ -1,0 +1,33 @@
+#Bwa-mem mapping for multiple fastq files
+
+prefix_list:
+  - SRR1658790_part1
+  - SRR1658790_part2
+  - SRR1658790_part3
+  - SRR1658793
+
+input_fastq1_files:
+  - class: File
+    path: ../../data/SRR1658790_part1_1.fastq.gz
+  - class: File
+    path: ../../data/SRR1658790_part2_1.fastq.gz
+  - class: File
+    path: ../../data/SRR1658790_part3_1.fastq.gz
+  - class: File
+    path: ../../data/SRR1658793_1.fastq.gz
+
+input_fastq2_files:
+  - class: File
+    path: ../../data/SRR1658790_part1_2.fastq.gz
+  - class: File
+    path: ../../data/SRR1658790_part2_2.fastq.gz
+  - class: File
+    path: ../../data/SRR1658790_part3_2.fastq.gz
+  - class: File
+    path: ../../data/SRR1658793_2.fastq.gz
+
+nThreads: 8
+
+bwa_index:
+    class: File
+    path: "../../references/hg38/bwa_idx/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta"

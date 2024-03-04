@@ -1,0 +1,16 @@
+# Pairs file to pairs stats
+# Multiple inputs
+
+input_pairs_files:
+  - class: File
+    path: "../../results/4dn_eco_validpairs/SRR1658790.marked.pairs.gz"
+  - class: File
+    path: "../../results/4dn_eco_validpairs/SRR1658793.marked.pairs.gz"
+
+prefix_list:
+  - "SRR1658790"
+  - "SRR1658793"
+
+# Optional
+nproc_out: 8 
+nproc_in: 1

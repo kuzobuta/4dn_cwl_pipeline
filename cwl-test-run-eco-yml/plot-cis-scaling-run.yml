@@ -1,0 +1,8 @@
+# Plot cis scaling from pairs file
+# Using new version of pairtools v1.0.3
+
+input_pairs:
+    class: File
+    path: "../../results/4dn_new_hic_mcool/SRR1658790_SRR1658793.ff.pairs.gz"
+
+outprefix: "SRR1658790_SRR1658793.ff"

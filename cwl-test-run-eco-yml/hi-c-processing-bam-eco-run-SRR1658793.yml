@@ -1,0 +1,17 @@
+#4dn eco mode with user specified output name bam to validpairs
+#Not to generating sam pairs, lossless bam
+#Smaller files size than default mode
+
+input_bams:
+  - class: File
+    path: "../../results/4dn_default_bam/SRR1658793.bam"
+
+outprefix: "SRR1658793"
+
+chromsize:
+    class: File
+    path: "../../references/hg38/chromsize/4DNFI823LSII.chrom.sizes"
+
+nthreads_parse_sort: 8
+
+nthreads_merge: 8

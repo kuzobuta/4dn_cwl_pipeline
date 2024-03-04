@@ -1,0 +1,31 @@
+#4dn new mode a single pairs file to .hic & .mcool files [using new version of cool]
+#User specified file name
+#Not performing merging pairs & fragment assignment
+
+input_single_pairs:
+    class: File
+    path: "../../results/4dn_new_hic_mcool_filter_pairs/SRR1658790_SRR1658793.ff.filter_same.MAPQ10.pairs.gz"
+
+outprefix: "SRR1658790_SRR1658793.ff.filter_same.MAPQ10"
+
+chromsizes:
+    class: File
+    path: "../../references/hg38/chromsize/4DNFI823LSII.chrom.sizes"
+
+nthreads: 8
+
+# resolutions: default is 13 resolutions but you may change this
+# Using low-resolution to save the computational time for test
+min_res: 100000
+custom_res: "100000,200000,500000,1000000,5000000,10000000"
+nres: 6
+
+juicer_res: false
+maxmem: "14g"  
+higlass: false
+mapqfilter_juicer: 0
+
+no_balance: false
+max_split_cooler: 2
+chunksize: 10000000
+
