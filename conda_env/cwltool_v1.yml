@@ -1,0 +1,11 @@
+name: cwltool_v1
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.6
+  - sra-tools
+  - pip
+  - pip:
+    - cwltool==1.0.20191225192155
