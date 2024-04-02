@@ -125,6 +125,15 @@ cwl-test-run-default-yml/RE-checker-run-SRR1658793.yml \
 &> ${LOG}/run_RE-checker_SRR1658793.log
 echo "# End   test run $i-2 RE-checker :                      "`date`
 
+# 6. PairsQC [4dn default]
+OUTDIR=../results/4dn_pairsqc
+mkdir -p ${OUTDIR}
+
+$cwl_runner --outdir $OUTDIR \
+cwl/pairsqc-single.cwl \
+cwl-test-run-default-yml/pairsqc-single-run.yml \
+&> ${LOG}/run_pairsqc-single.cwl.log
+echo "# End   test run $i   PairsQC :                         "`date`
 
 #
 #conda deactivate
