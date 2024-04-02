@@ -29,7 +29,7 @@ cd ../sites/MboI
 wget https://4dn-open-data-public.s3.amazonaws.com/fourfront-webprod/files/cb3c293b-b5fe-4f47-9373-a29399ea1edc/4DNFIONK4G14.txt
 
 #mm10 DpnII sites
-cd ../sites/DpnII
+cd ../DpnII
 wget https://4dn-open-data-public.s3.amazonaws.com/fourfront-webprod/files/62da1021-3c96-4aa5-8a06-e5d6cfe9aab1/4DNFI3HVC1SE.txt
 
 #mm10 HindIII sites
