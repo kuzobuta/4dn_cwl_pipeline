@@ -3,7 +3,7 @@ label: v240227 pairtools dist filtering for single pairs file
 hints:
   -
     class: "DockerRequirement"
-    dockerPull: "duplexa/4dn-hic:v43"
+    dockerPull: "kuzobuta/4dn-hic:v43"
 
 class: "CommandLineTool"
 baseCommand:
