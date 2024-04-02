@@ -1,0 +1,18 @@
+# Run pairsqc
+
+input_pairs:
+    class: File
+    path: "../../results/4dn_default_hic_mcool/out.pairs.gz"
+
+sample_name: "SRR1658790_SRR1658793"
+
+chromsizes:
+    class: File
+    path: "../../references/hg38/chromsize/4DNFI823LSII.chrom.sizes"
+
+enzyme: "4"
+
+#Optional
+max_distance: 8.4  # default value of type "float".
+output_dir: "."  # default value of type "string".
+
