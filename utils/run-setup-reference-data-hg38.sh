@@ -29,7 +29,7 @@ cd ../sites/MboI
 wget https://4dn-open-data-public.s3.amazonaws.com/fourfront-webprod/files/4a6d10ee-2edb-4402-a98f-0edb1d582084/4DNFI823L812.txt
 
 #hg38 DpnII sites#
-cd ../sites/DpnII
+cd ../DpnII
 wget https://4dn-open-data-public.s3.amazonaws.com/fourfront-webprod/files/84db9821-3b82-4c6a-bf4f-5e0b3f43036e/4DNFIBNAPW3O.txt
 
 #hg38 HindIII sites#
