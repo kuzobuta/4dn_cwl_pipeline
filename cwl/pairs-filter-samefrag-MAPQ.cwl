@@ -3,7 +3,7 @@
   hints: 
     - 
       class: "DockerRequirement"
-      dockerPull: "kuzobuta/4dn-hic:v43"
+      dockerPull: "kuzobuta/4dn-hic:v43.1"
   requirements: 
     - 
       class: "InlineJavascriptRequirement"
