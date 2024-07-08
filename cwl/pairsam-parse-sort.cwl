@@ -64,7 +64,7 @@
   cwlVersion: "v1.0"
   hints: 
     - 
-      dockerPull: "duplexa/4dn-hic:v43"
+      dockerPull: "kuzobuta/4dn-hic:v43.1"
       class: "DockerRequirement"
   requirements: 
     - 
