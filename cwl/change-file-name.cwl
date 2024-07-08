@@ -1,9 +1,9 @@
 cwlVersion: "v1.0"
-label: v240229 change file name
+label: v240708 change file name
 hints:
   -
     class: "DockerRequirement"
-    dockerPull: "duplexa/4dn-hic:v43"
+    dockerPull: "kuzobuta/4dn-hic:v43.1"
 
 class: "CommandLineTool"
 baseCommand: ["mv"]
