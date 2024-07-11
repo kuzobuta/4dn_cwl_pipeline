@@ -42,7 +42,7 @@
   cwlVersion: "v1.0"
   hints: 
     - 
-      dockerPull: "kuzobuta/4dn-hic:v43.1"
+      dockerPull: "kuzobuta/4dn-hic:v43"
       class: "DockerRequirement"
   requirements: 
     - 
