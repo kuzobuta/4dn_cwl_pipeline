@@ -1,7 +1,7 @@
 name: singularity_cwltool_env
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
 dependencies:
   - python=3.8
   - cwltool=3.1.20240708091337
